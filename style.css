@@ -1,0 +1,243 @@
+*{
+margin: 0;
+padding: 0;
+}
+html, body {
+  font-family: 'Be Vietnam Pro';
+  font-weight: bold;
+}
+
+header{
+    align-items: center;
+}
+.flex-container { /*Set absolute de khong bi di chuyen*/
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 83px; /*Nên padding container đầu tiên */
+  gap: 30px;
+  margin: auto;
+  
+}
+.Logo {
+  width: 200px;
+  height: 60px;
+  background: #ddd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  /* padding: 18px 75px 17px 73px; Bỏ theo lời AI*/ 
+  /* margin-left: 83px; */
+  /* Quan trọng: loại bỏ padding & chỉnh box-sizing */
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Thắc mắc nhiều ở chỗ padding hay là margin*/
+.Menu{
+    width:820px;
+    background-color:#ddd;
+    height:34px;
+    display:flex;
+    box-sizing:border-box;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+
+    box-sizing: border-box;
+    padding: 0;
+
+}
+.Button{
+    width:120px;
+    height:42px;
+    background-color: #ddd;
+    
+    /* padding: 9px 25px 8px 26px; */
+    
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius:8px;
+
+    box-sizing: border-box;
+    padding: 0; /* Tại sao là padding*/
+
+    margin-right: 83px;
+
+
+}
+.container-2{
+    display:flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 83px; /*Tại sao chỗ này lại là padding?*/
+}
+.Content{
+    width:  585px;
+    height: 267px;
+    background: #ddd;
+    display:flex; /*Tại sao vẫn phải đặt flex ở chỗ này*/
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding:0;
+
+}
+.Image{
+    
+    width:  585px;
+    height: 520px;
+    background: #ddd;
+    display:flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+
+}
+.Title{
+    width:600px;
+    height: 80px;
+    background-color: #ddd;
+
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+
+}
+.Title2{
+    width:600px;
+    height: 80px;
+    background-color: #ddd;
+
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:40px;
+
+}
+.Title3{
+     width:600px;
+    height: 80px;
+
+    background-color: #ddd;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+.Section{ /*GPT*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /* justify-content: center;  */
+  justify-content: space-between;  
+   
+  padding:83px;
+  box-sizing: border-box
+
+
+}
+.item-list{
+
+  display: grid;
+  grid-template-columns: repeat(3, 380px); 
+  gap: 300px; 
+  justify-content: space-between;
+  justify-items:center;
+  padding : 83px
+
+  
+}
+.item-list-2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 165px;
+    padding: 83px;
+    
+}
+.item-list-3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 210px;
+    padding: 83px;
+}
+.item{
+    text-align: center;
+    background-color: #ddd;
+    display: flex;
+
+    width: 380px;
+    
+    height: 420px;
+
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    text-align: center;
+    background-color: #ddd;
+    width: 216px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    text-align: center;
+    background-color: #ddd;
+    width: 277.5px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>p{
+    display: flex;
+    background-color: #ddd;
+    width: 100%;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
